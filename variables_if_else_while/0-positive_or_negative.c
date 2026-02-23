@@ -9,23 +9,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	return (0);
-
 if (n>0)
 {
-printf("%d is positive", (int)n);
+printf("%d is positive\n", (int)n);
 }
 
-if (n=0)
+if (n==0)
 {
-printf ("%d is zero", (int)n);
+printf ("%d is zero\n", (int)n);
 }
 
 if (n<0)
 {
-printf ("%d is negative", (int)n);
+printf ("%d is negative\n", (int)n);
 }
-
-return (0)
+return (0);
 }
