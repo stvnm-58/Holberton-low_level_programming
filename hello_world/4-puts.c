@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*Commentaire 1*/
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 /*Commentaire 2*/
 
