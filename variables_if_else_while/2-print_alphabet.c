@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-/* 
-* Déroule l'alphabet
-* boucle s'arrête à z
-*/
-
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char l = 'a';
