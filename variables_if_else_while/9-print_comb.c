@@ -17,8 +17,7 @@ putchar(' ');
 n++;
 }
 
-putchar('\n');
-putchar (' ');
+putchar(',');
 
 return (0);
 }
