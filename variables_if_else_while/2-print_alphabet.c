@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-int main (void)
+/* 
+* Déroule l'alphabet
+* boucle s'arrête à z
+*/
+
+
+int main(void)
 {
 char l = 'a';
 
-while (l <= 'z' )
+while (l <= 'z')
 {
 putchar(l);
 l++;
