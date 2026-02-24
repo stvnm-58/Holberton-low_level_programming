@@ -4,9 +4,9 @@ int main (void)
 {
 char lettre = 'a';
 
-putchar (lettre)
+putchar (lettre);
 
-while (lettre < 'z' )
+while (lettre < 'z' );
 {
 putchar (lettre + 1);
 }
