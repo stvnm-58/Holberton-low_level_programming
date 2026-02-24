@@ -2,13 +2,13 @@
 
 int main (void)
 {
-char lettre = 'a';
+char l = 'a';
 
-putchar (lettre);
-
-while (lettre < 'z' )
+while (l < 'z' )
 {
-putchar (lettre + 1);
+putchar(l);
+l ++
+putchar(l);
 }
 
 return (0);
