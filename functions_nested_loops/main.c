@@ -6,6 +6,13 @@
  */
  int main(void)
  {
-print_alphabet_x10();
-return (0);
+int r;
+r = _islower('H');
+_islower(r + '0');
+r = _islower('o');
+_islower(r + '0');
+r = _islower(108);
+_islower(r + '0');
+
+return (0)
  }
