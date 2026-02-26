@@ -9,12 +9,7 @@
 void jack_bauer(void)
 {
 int a, b, c, d;
-/**
-* a = heure dizaine
-* b = heure unité
-* c = minute dizaine
-* d = minute unité
-*/
+
 
 a = 0;
 while (a <= 2)
