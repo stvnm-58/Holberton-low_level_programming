@@ -12,4 +12,5 @@ int result;
 
 result = a + b;
 _putchar (result);
+return (result);
 }
