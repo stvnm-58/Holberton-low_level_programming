@@ -9,13 +9,13 @@ int a = 0;
 
 	while (a <= 0)
 	{
-		if (a = '1' || '3')
+		if (a == 1 || a == 3)
 		{
 			a = a + 2;
 		}
 		else
 		{
-			_putchar(a);
+			_putchar(a + '0');
 			a++;
 		}
 	}
