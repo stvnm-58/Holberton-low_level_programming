@@ -9,9 +9,9 @@ int a = 0;
 
 	while (a <= 9)
 	{
-		if (a == 1 || a == 3)
+		if (a == 2 || a == 4)
 		{
-			a = a + 2;
+			a++;
 		}
 		else
 		{
