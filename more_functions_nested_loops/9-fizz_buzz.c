@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+void fizzbuzz (int n);
 /**
 * fizzbuzz - prints numbers from 1 to n with a twist
 * @n: the upper limit of the numbers to print
