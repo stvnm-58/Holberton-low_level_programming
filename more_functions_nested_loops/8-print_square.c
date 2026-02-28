@@ -10,17 +10,13 @@ void print_square (int size)
 {
 int i; /* nombre de # sur une ligne*/
 int j; /* nombre de saut à la ligne*/
-
 if (size <= 0)
 {
 	_putchar('\n');
 
 }
-
-
 else
 {
-
 for (j = 0; j < size ; j++)
 {
 
@@ -31,5 +27,4 @@ for (j = 0; j < size ; j++)
 			 _putchar('\n');
 }
 }
-
 }
